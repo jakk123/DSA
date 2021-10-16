@@ -1,5 +1,3 @@
-// C++ program to implement
-// the above approach
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -10,9 +8,6 @@ class Node
 	int data;
 	Node *next;
 };
-
-/* Function to insert a node at the beginning
-of a Circular linked list */
 void push(Node **head_ref, int data)
 {
 	Node *ptr1 = new Node();
@@ -33,9 +28,6 @@ void push(Node **head_ref, int data)
 
 	*head_ref = ptr1;
 }
-
-/* Function to print nodes in
-a given Circular linked list */
 void printList(Node *head)
 {
 	Node *temp = head;
@@ -50,7 +42,6 @@ void printList(Node *head)
 	}
 }
 
-/* Driver program to test above functions */
 int main()
 {
 	/* Initialize lists as empty */
